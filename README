@@ -1,0 +1,14 @@
+This app is based on code produced by the 2013 Canals team.
+
+Example data is included in the "counts.csv" file.
+All fields should be included, though the latitude and longitude aren't strictly needed.
+
+To add data to the tool, only the csv must be updated.
+If other types of locations need to be added, the shapefiles must be combined and uploaded to the console.
+When merging data on the console, the final grou should be titled "Merged Bridge APP Data".
+
+Tourism and resident numbers are hard-coded into the file.
+All the yearly numbers were sourced from Migropolis.
+Monthly tourim numbers are from the COSES report.
+
+For additional information email rdlarkins@wpi.edu
