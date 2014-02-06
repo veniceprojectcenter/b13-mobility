@@ -71,7 +71,7 @@
 				map = L.map("map-canvas", {minZoom: 14}).setView([45.436 , 12.334], 14);
 				baseLayer = new L.TileLayer(
 					'http://{s}.tiles.mapbox.com/v3/bennlich.map-8ds9rdrc/{z}/{x}/{y}.png',
-					{ attribution: 'Map tiles © MapBox' }
+					{ attribution: 'Map tiles Â© MapBox' }
 					).addTo(map);
 				L.control.scale().addTo(map);
 			});
@@ -444,6 +444,23 @@
 				});
 			}]);
 		</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-47662945-1']);
+  _gaq.push(['_setDomainName', 'veniceprojectcenter.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 	</head>
 	<body ng-controller="DataCtrl">
 		<div style="position:absolute;width:100%;height:100%;">
